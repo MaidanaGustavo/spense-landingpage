@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Cabin', sans-serif;
+}
+header{
+  background-color: #040607;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Cabin', sans-serif;
+}
+header span:last-child{
+  text-decoration: underline;
+  margin-right: 5px;
+}
+.inicial { 
+  background-color: #DBDAD2; 
+}
+.second-section{
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  
+}
+.container nav{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 85px;
+}
+.container nav li {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 25px;
+  color: #040607;
+}
+.container span:first-child{
+  color: #040607;
+  font-weight: 600;
+}
+.container .login{
+  margin-right: 15px;
+}
+.container button{
+  padding: 20px 35px;
+  border-radius: 4px;
+  border: none;
+  background-color: #040607;
+  color: #fff;
+  font-size: 12pt;
+}
+article{
+  width: 45%;
+  padding: 15px ;
+  align-self: center;
+}
+article .title{
+  font-size: 32pt;
+  color: #000;
+  font-weight: bold;
+  margin-top: 5px;
+}
+article .subtitle{
+  font-size: 12pt;
+}
+article .second-subtitle{
+  font-size: 12pt;
+}
+.marks{
+  padding: 15px;
+}
+.marks .mark{
+  display: flex;
+  align-items: center;
+  padding: 5px 5px;
+}
+.mark span{
+  margin-left: 15px;
+  color: #000;
+}
+.register {
+  padding: 5px 5px;
+}
+.register input[type='text']{
+  padding: 15px;
+  width: 150px;
+  border: 0.5px solid #A9A9A9;
+  border-radius: 6px;
+}
+.register button{
+  padding: 15px 25px;
+  border-radius: 4px;
+  border: none;
+  background-color: #040607;
+  color: #fff;
+  font-size: 12pt;
+  margin-left: 15px;
+}
+.image-initial img{
+  width: 400px;
+}
